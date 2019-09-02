@@ -1,0 +1,72 @@
+body {
+  background-color: #020202 !important;
+}
+
+.text-mark {
+  position: relative;
+  margin: 3px;
+  width: 100;
+  color: #F2F2F2;
+  text-decoration: underline;
+  text-decoration-color: chartreuse !important;
+}
+
+.text-mark:hover {
+  color: chartreuse;
+}
+
+.text-h {
+  color: chartreuse;
+}
+
+.App {
+  font-family: 'Dosis', sans-serif;
+  color: #F2F2F2;
+}
+
+.c-text:hover {
+  color: chartreuse;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .bg {
+    /* The image used */
+    background-image: url("./img/bg.jpg");
+    /* Full height */
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .c-row {
+    height: 100vh;
+  }
+  .text-bg {
+    padding: 10px;
+    width: fit-content;
+    background-color: #020202
+  }
+  .contact {
+    width: 100%;
+  }
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .text-bg {
+    width: 100%;
+    text-align: center;
+  }
+  .col-sm-6 {
+    text-align: center;
+  }
+}
