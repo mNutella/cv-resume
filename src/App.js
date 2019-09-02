@@ -6,6 +6,7 @@ const App = () => {
   const linkedinURL = 'https://www.linkedin.com/in/dv-dmitry-valdimirov/';
   const linkedinName = 'dv-dmitry-valdimirov';
   const email = 'netcore.click@gmail.com';
+  const cvURL = 'https://github.com/mNutella/cv-resume/raw/master/cv_3.pdf';
 
   return (
     <div className="App">
@@ -24,7 +25,7 @@ const App = () => {
               {' '}
               Instead of many words look into my CV
               {' '}
-              <a href="!#" className="text-mark">here</a>.
+              <a href={cvURL} className="text-mark">here</a>.
             </p>
             <div className="row mt-3">
               <div className="col-sm-6">
