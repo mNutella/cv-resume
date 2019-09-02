@@ -16,7 +16,7 @@ const App = () => {
             <h1 className="display-1 text-bg">Hi there!</h1>
             <p className="h2 mt-3 text-bg">
               My name is
-              <a href="!#" className="text-mark">{name}</a>
+              <a href={linkedinURL} className="text-mark">{name}</a>
               {' '}
               and I'm
               {' '}
